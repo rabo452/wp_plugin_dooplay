@@ -2,13 +2,12 @@ import grequests
 import requests
 import json
 from bs4 import BeautifulSoup as bs
-import os
+
+from config import wordpress_plugin_link
 
 headers = {
   'user-agent': """Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36""",
 }
-wordpress_plugin_link = 'https://pelisya.io/wp-content/plugins/adder_wp/adder_wp.php'
-secret_key = 'SeCREt_kEy'
 
 
 
